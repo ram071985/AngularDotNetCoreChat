@@ -1,0 +1,32 @@
+﻿<Properties StartupConfiguration="{18A971C8-3F40-45CB-A541-630F3E9184E9}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="API/AngularChat/package.json">
+    <Files>
+      <File FileName="API/Startup.cs" Line="31" Column="38" />
+      <File FileName="API/Program.cs" Line="1" Column="1" NotebookId="1" />
+      <File FileName="API/AngularChat/angular.json" Line="13" Column="1" NotebookId="1" />
+      <File FileName="API/AngularChat/package.json" Line="1" Column="1" NotebookId="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="angular-chat" expanded="True">
+            <Node name="API" expanded="True">
+              <Node name="AngularChat" expanded="True">
+                <Node name="e2e" expanded="True" />
+                <Node name="src" expanded="True" />
+                <Node name="package.json" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.API PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

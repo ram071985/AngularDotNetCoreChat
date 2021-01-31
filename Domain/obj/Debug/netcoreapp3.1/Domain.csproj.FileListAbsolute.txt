@@ -1,0 +1,9 @@
+/Users/reid/Desktop/Projects/angular-chat/Domain/bin/Debug/netcoreapp3.1/Domain.deps.json
+/Users/reid/Desktop/Projects/angular-chat/Domain/bin/Debug/netcoreapp3.1/Domain.dll
+/Users/reid/Desktop/Projects/angular-chat/Domain/bin/Debug/netcoreapp3.1/Domain.pdb
+/Users/reid/Desktop/Projects/angular-chat/Domain/obj/Debug/netcoreapp3.1/Domain.csprojAssemblyReference.cache
+/Users/reid/Desktop/Projects/angular-chat/Domain/obj/Debug/netcoreapp3.1/Domain.AssemblyInfoInputs.cache
+/Users/reid/Desktop/Projects/angular-chat/Domain/obj/Debug/netcoreapp3.1/Domain.AssemblyInfo.cs
+/Users/reid/Desktop/Projects/angular-chat/Domain/obj/Debug/netcoreapp3.1/Domain.csproj.CoreCompileInputs.cache
+/Users/reid/Desktop/Projects/angular-chat/Domain/obj/Debug/netcoreapp3.1/Domain.dll
+/Users/reid/Desktop/Projects/angular-chat/Domain/obj/Debug/netcoreapp3.1/Domain.pdb

@@ -1,0 +1,12 @@
+/Users/reid/Desktop/Projects/angular-chat/Infrastructure/bin/Debug/netcoreapp3.1/Infrastructure.deps.json
+/Users/reid/Desktop/Projects/angular-chat/Infrastructure/bin/Debug/netcoreapp3.1/Infrastructure.dll
+/Users/reid/Desktop/Projects/angular-chat/Infrastructure/bin/Debug/netcoreapp3.1/Infrastructure.pdb
+/Users/reid/Desktop/Projects/angular-chat/Infrastructure/bin/Debug/netcoreapp3.1/Domain.dll
+/Users/reid/Desktop/Projects/angular-chat/Infrastructure/bin/Debug/netcoreapp3.1/Domain.pdb
+/Users/reid/Desktop/Projects/angular-chat/Infrastructure/obj/Debug/netcoreapp3.1/Infrastructure.csprojAssemblyReference.cache
+/Users/reid/Desktop/Projects/angular-chat/Infrastructure/obj/Debug/netcoreapp3.1/Infrastructure.AssemblyInfoInputs.cache
+/Users/reid/Desktop/Projects/angular-chat/Infrastructure/obj/Debug/netcoreapp3.1/Infrastructure.AssemblyInfo.cs
+/Users/reid/Desktop/Projects/angular-chat/Infrastructure/obj/Debug/netcoreapp3.1/Infrastructure.csproj.CoreCompileInputs.cache
+/Users/reid/Desktop/Projects/angular-chat/Infrastructure/obj/Debug/netcoreapp3.1/Infrastructure.csproj.CopyComplete
+/Users/reid/Desktop/Projects/angular-chat/Infrastructure/obj/Debug/netcoreapp3.1/Infrastructure.dll
+/Users/reid/Desktop/Projects/angular-chat/Infrastructure/obj/Debug/netcoreapp3.1/Infrastructure.pdb

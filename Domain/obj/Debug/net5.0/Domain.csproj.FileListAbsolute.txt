@@ -1,0 +1,12 @@
+/Users/reid/Desktop/Projects/angular-chat/Domain/bin/Debug/net5.0/Domain.deps.json
+/Users/reid/Desktop/Projects/angular-chat/Domain/bin/Debug/net5.0/Domain.dll
+/Users/reid/Desktop/Projects/angular-chat/Domain/bin/Debug/net5.0/ref/Domain.dll
+/Users/reid/Desktop/Projects/angular-chat/Domain/bin/Debug/net5.0/Domain.pdb
+/Users/reid/Desktop/Projects/angular-chat/Domain/obj/Debug/net5.0/Domain.csprojAssemblyReference.cache
+/Users/reid/Desktop/Projects/angular-chat/Domain/obj/Debug/net5.0/Domain.GeneratedMSBuildEditorConfig.editorconfig
+/Users/reid/Desktop/Projects/angular-chat/Domain/obj/Debug/net5.0/Domain.AssemblyInfoInputs.cache
+/Users/reid/Desktop/Projects/angular-chat/Domain/obj/Debug/net5.0/Domain.AssemblyInfo.cs
+/Users/reid/Desktop/Projects/angular-chat/Domain/obj/Debug/net5.0/Domain.csproj.CoreCompileInputs.cache
+/Users/reid/Desktop/Projects/angular-chat/Domain/obj/Debug/net5.0/Domain.dll
+/Users/reid/Desktop/Projects/angular-chat/Domain/obj/Debug/net5.0/ref/Domain.dll
+/Users/reid/Desktop/Projects/angular-chat/Domain/obj/Debug/net5.0/Domain.pdb

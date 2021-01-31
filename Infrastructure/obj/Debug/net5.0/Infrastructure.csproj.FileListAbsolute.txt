@@ -1,0 +1,15 @@
+/Users/reid/Desktop/Projects/angular-chat/Infrastructure/bin/Debug/net5.0/Infrastructure.deps.json
+/Users/reid/Desktop/Projects/angular-chat/Infrastructure/bin/Debug/net5.0/Infrastructure.dll
+/Users/reid/Desktop/Projects/angular-chat/Infrastructure/bin/Debug/net5.0/ref/Infrastructure.dll
+/Users/reid/Desktop/Projects/angular-chat/Infrastructure/bin/Debug/net5.0/Infrastructure.pdb
+/Users/reid/Desktop/Projects/angular-chat/Infrastructure/bin/Debug/net5.0/Domain.dll
+/Users/reid/Desktop/Projects/angular-chat/Infrastructure/bin/Debug/net5.0/Domain.pdb
+/Users/reid/Desktop/Projects/angular-chat/Infrastructure/obj/Debug/net5.0/Infrastructure.csprojAssemblyReference.cache
+/Users/reid/Desktop/Projects/angular-chat/Infrastructure/obj/Debug/net5.0/Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+/Users/reid/Desktop/Projects/angular-chat/Infrastructure/obj/Debug/net5.0/Infrastructure.AssemblyInfoInputs.cache
+/Users/reid/Desktop/Projects/angular-chat/Infrastructure/obj/Debug/net5.0/Infrastructure.AssemblyInfo.cs
+/Users/reid/Desktop/Projects/angular-chat/Infrastructure/obj/Debug/net5.0/Infrastructure.csproj.CoreCompileInputs.cache
+/Users/reid/Desktop/Projects/angular-chat/Infrastructure/obj/Debug/net5.0/Infrastructure.csproj.CopyComplete
+/Users/reid/Desktop/Projects/angular-chat/Infrastructure/obj/Debug/net5.0/Infrastructure.dll
+/Users/reid/Desktop/Projects/angular-chat/Infrastructure/obj/Debug/net5.0/ref/Infrastructure.dll
+/Users/reid/Desktop/Projects/angular-chat/Infrastructure/obj/Debug/net5.0/Infrastructure.pdb

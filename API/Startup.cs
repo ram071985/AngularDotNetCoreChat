@@ -48,7 +48,7 @@ namespace API
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllers();
-                endpoints.MapFallbackToFile("/index.html");
+      
             });
 
             app.UseSpa(spa =>
@@ -56,7 +56,7 @@ namespace API
                 spa.Options.SourcePath = "AngularChat";
                 if (env.IsDevelopment())
                 {
-                    spa.UseProxyToSpaDevelopmentServer("http://localhost:4200");
+                    spa.UseProxyToSpaDevelopmentServer("https://localhost:4200");
                 }
             });
         }

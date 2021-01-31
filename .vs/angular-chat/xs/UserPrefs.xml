@@ -1,12 +1,17 @@
 ﻿<Properties StartupConfiguration="{18A971C8-3F40-45CB-A541-630F3E9184E9}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="API/API.csproj">
+  <MonoDevelop.Ide.Workbench ActiveDocument="API/AngularChat/angular.json">
     <Files>
-      <File FileName="API/Startup.cs" Line="57" Column="78" />
-      <File FileName="API/API.csproj" Line="3" Column="18" />
+      <File FileName="API/Startup.cs" Line="59" Column="79" />
+      <File FileName="API/API.csproj" />
       <File FileName="Domain/Domain.csproj" />
       <File FileName="Infrastructure/Infrastructure.csproj" />
-      <File FileName="API/Program.cs" Line="9" Column="1" NotebookId="1" />
-      <File FileName="API/AngularChat/angular.json" NotebookId="1" />
+      <File FileName="API/appsettings.json" Line="9" Column="22" />
+      <File FileName="API/appsettings.Development.json" />
+      <File FileName="API/AngularChat/src/index.html" Line="6" Column="16" />
+      <File FileName="API/AngularChat/src/app/app.component.html" Line="1" Column="1" />
+      <File FileName="API/AngularChat/src/app/app.component.ts" Line="6" Column="37" />
+      <File FileName="API/Program.cs" Line="16" Column="1" NotebookId="1" />
+      <File FileName="API/AngularChat/angular.json" Line="13" Column="25" NotebookId="1" />
       <File FileName="API/AngularChat/package.json" NotebookId="1" />
     </Files>
     <Pads>
@@ -15,10 +20,12 @@
           <Node name="angular-chat" expanded="True">
             <Node name="API" expanded="True">
               <Node name="AngularChat" expanded="True">
-                <Node name="e2e" expanded="True" />
-                <Node name="src" expanded="True" />
+                <Node name="src" expanded="True">
+                  <Node name="app" expanded="True" />
+                </Node>
+                <Node name="angular.json" selected="True" />
               </Node>
-              <Node name="Program.cs" selected="True" />
+              <Node name="appsettings.json" expanded="True" />
             </Node>
           </Node>
         </State>

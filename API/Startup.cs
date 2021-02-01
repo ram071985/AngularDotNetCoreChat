@@ -22,11 +22,12 @@ namespace API
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
-            services.AddSpaStaticFiles(config => {
-                config.RootPath = "AngularChat/dist";
+            services.AddAuthorization();
+            services.AddSwaggerGen();
+            services.AddSpaStaticFiles(config =>
+            {
+                config.RootPath = "client/dist";
             });
-
-
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -37,11 +38,24 @@ namespace API
                 app.UseDeveloperExceptionPage();           
             }
 
+            app.UseStatusCodePagesWithReExecute("/errors/{0}");
+
             app.UseHttpsRedirection();
 
             app.UseRouting();
 
+            app.UseStaticFiles();
+
+            app.UseAuthentication();
+
             app.UseAuthorization();
+
+            app.UseSwagger();
+
+            app.UseSwaggerUI(c =>
+            {
+                c.SwaggerEndpoint("/swagger/v1/swagger.json", "My API V1");
+            });
 
             app.UseSpaStaticFiles();
 
@@ -53,10 +67,10 @@ namespace API
 
             app.UseSpa(spa =>
             {
-                spa.Options.SourcePath = "AngularChat";
+                spa.Options.SourcePath = "client";
                 if (env.IsDevelopment())
                 {
-                    spa.UseProxyToSpaDevelopmentServer("https://localhost:4200");
+                    spa.UseAngularCliServer(npmScript: "start");
                 }
             });
         }

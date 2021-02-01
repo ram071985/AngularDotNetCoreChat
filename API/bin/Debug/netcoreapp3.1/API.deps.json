@@ -25,11 +25,14 @@
       "API/1.0.0": {
         "dependencies": {
           "Infrastructure": "1.0.0",
-          "Microsoft.AspNetCore.Authentication.OpenIdConnect": "3.1.8",
+          "Microsoft.AspNetCore.Authentication.JwtBearer": "3.1.11",
+          "Microsoft.AspNetCore.Authentication.OpenIdConnect": "3.1.11",
           "Microsoft.AspNetCore.SpaServices": "3.1.11",
           "Microsoft.AspNetCore.SpaServices.Extensions": "3.1.11",
           "Microsoft.Extensions.Configuration": "3.1.11",
           "Swashbuckle.AspNetCore": "5.6.2",
+          "Swashbuckle.AspNetCore.Swagger": "5.6.2",
+          "Swashbuckle.AspNetCore.SwaggerGen": "5.6.2",
           "Microsoft.AspNetCore.Antiforgery": "3.1.0.0",
           "Microsoft.AspNetCore.Authentication.Abstractions": "3.1.0.0",
           "Microsoft.AspNetCore.Authentication.Cookies": "3.1.0.0",
@@ -305,14 +308,28 @@
           "API.dll": {}
         }
       },
-      "Microsoft.AspNetCore.Authentication.OpenIdConnect/3.1.8": {
+      "Microsoft.AspNetCore.Authentication.JwtBearer/3.1.11": {
+        "dependencies": {
+          "Microsoft.IdentityModel.Protocols.OpenIdConnect": "5.5.0"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Microsoft.AspNetCore.Authentication.JwtBearer.dll": {
+            "assemblyVersion": "3.1.11.0",
+            "fileVersion": "3.100.1120.56915"
+          }
+        },
+        "compile": {
+          "lib/netcoreapp3.1/Microsoft.AspNetCore.Authentication.JwtBearer.dll": {}
+        }
+      },
+      "Microsoft.AspNetCore.Authentication.OpenIdConnect/3.1.11": {
         "dependencies": {
           "Microsoft.IdentityModel.Protocols.OpenIdConnect": "5.5.0"
         },
         "runtime": {
           "lib/netcoreapp3.1/Microsoft.AspNetCore.Authentication.OpenIdConnect.dll": {
-            "assemblyVersion": "3.1.8.0",
-            "fileVersion": "3.100.820.42106"
+            "assemblyVersion": "3.1.11.0",
+            "fileVersion": "3.100.1120.56915"
           }
         },
         "compile": {
@@ -2361,12 +2378,19 @@
       "serviceable": false,
       "sha512": ""
     },
-    "Microsoft.AspNetCore.Authentication.OpenIdConnect/3.1.8": {
+    "Microsoft.AspNetCore.Authentication.JwtBearer/3.1.11": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-nszoSasCukCRXutZOUUIXHbWl/u8X32do9y89FPv2XSahzOeXUX2BI9ehDh5bbbGtKM06LqfbGHXVl6BKqaxKA==",
-      "path": "microsoft.aspnetcore.authentication.openidconnect/3.1.8",
-      "hashPath": "microsoft.aspnetcore.authentication.openidconnect.3.1.8.nupkg.sha512"
+      "sha512": "sha512-FvTc4iVYa71rBOhJXATtx+Hco9XvwIUIWgEJ3LV2BheccaZZDrKCJ26SOeN2TBHxviE4jWvzsDSS/SkgipOIrw==",
+      "path": "microsoft.aspnetcore.authentication.jwtbearer/3.1.11",
+      "hashPath": "microsoft.aspnetcore.authentication.jwtbearer.3.1.11.nupkg.sha512"
+    },
+    "Microsoft.AspNetCore.Authentication.OpenIdConnect/3.1.11": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-jOTglw8dGmKAGCVe2lCrAI8ZxpqJOT3CCEZAceU5oVjeiyrHnfH18iC6IYY1nmXvc6VfOCH6ibOnSfU798R/Vw==",
+      "path": "microsoft.aspnetcore.authentication.openidconnect/3.1.11",
+      "hashPath": "microsoft.aspnetcore.authentication.openidconnect.3.1.11.nupkg.sha512"
     },
     "Microsoft.AspNetCore.NodeServices/3.1.11": {
       "type": "package",

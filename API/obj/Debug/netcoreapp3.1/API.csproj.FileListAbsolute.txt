@@ -61,3 +61,4 @@
 /Users/reid/Desktop/Projects/angular-chat/API/bin/Debug/netcoreapp3.1/Swashbuckle.AspNetCore.SwaggerUI.dll
 /Users/reid/Desktop/Projects/angular-chat/API/bin/Debug/netcoreapp3.1/System.IdentityModel.Tokens.Jwt.dll
 /Users/reid/Desktop/Projects/angular-chat/API/bin/Debug/netcoreapp3.1/Microsoft.OpenApi.dll
+/Users/reid/Desktop/Projects/angular-chat/API/bin/Debug/netcoreapp3.1/Microsoft.AspNetCore.Authentication.JwtBearer.dll

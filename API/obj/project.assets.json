@@ -2,7 +2,22 @@
   "version": 3,
   "targets": {
     ".NETCoreApp,Version=v3.1": {
-      "Microsoft.AspNetCore.Authentication.OpenIdConnect/3.1.8": {
+      "Microsoft.AspNetCore.Authentication.JwtBearer/3.1.11": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.IdentityModel.Protocols.OpenIdConnect": "5.5.0"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/Microsoft.AspNetCore.Authentication.JwtBearer.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Microsoft.AspNetCore.Authentication.JwtBearer.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      },
+      "Microsoft.AspNetCore.Authentication.OpenIdConnect/3.1.11": {
         "type": "package",
         "dependencies": {
           "Microsoft.IdentityModel.Protocols.OpenIdConnect": "5.5.0"
@@ -444,10 +459,25 @@
     }
   },
   "libraries": {
-    "Microsoft.AspNetCore.Authentication.OpenIdConnect/3.1.8": {
-      "sha512": "nszoSasCukCRXutZOUUIXHbWl/u8X32do9y89FPv2XSahzOeXUX2BI9ehDh5bbbGtKM06LqfbGHXVl6BKqaxKA==",
+    "Microsoft.AspNetCore.Authentication.JwtBearer/3.1.11": {
+      "sha512": "FvTc4iVYa71rBOhJXATtx+Hco9XvwIUIWgEJ3LV2BheccaZZDrKCJ26SOeN2TBHxviE4jWvzsDSS/SkgipOIrw==",
       "type": "package",
-      "path": "microsoft.aspnetcore.authentication.openidconnect/3.1.8",
+      "path": "microsoft.aspnetcore.authentication.jwtbearer/3.1.11",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/netcoreapp3.1/Microsoft.AspNetCore.Authentication.JwtBearer.dll",
+        "lib/netcoreapp3.1/Microsoft.AspNetCore.Authentication.JwtBearer.xml",
+        "microsoft.aspnetcore.authentication.jwtbearer.3.1.11.nupkg.sha512",
+        "microsoft.aspnetcore.authentication.jwtbearer.nuspec"
+      ]
+    },
+    "Microsoft.AspNetCore.Authentication.OpenIdConnect/3.1.11": {
+      "sha512": "jOTglw8dGmKAGCVe2lCrAI8ZxpqJOT3CCEZAceU5oVjeiyrHnfH18iC6IYY1nmXvc6VfOCH6ibOnSfU798R/Vw==",
+      "type": "package",
+      "path": "microsoft.aspnetcore.authentication.openidconnect/3.1.11",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -455,7 +485,7 @@
         "THIRD-PARTY-NOTICES.TXT",
         "lib/netcoreapp3.1/Microsoft.AspNetCore.Authentication.OpenIdConnect.dll",
         "lib/netcoreapp3.1/Microsoft.AspNetCore.Authentication.OpenIdConnect.xml",
-        "microsoft.aspnetcore.authentication.openidconnect.3.1.8.nupkg.sha512",
+        "microsoft.aspnetcore.authentication.openidconnect.3.1.11.nupkg.sha512",
         "microsoft.aspnetcore.authentication.openidconnect.nuspec"
       ]
     },
@@ -1079,11 +1109,14 @@
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
       "Infrastructure >= 1.0.0",
-      "Microsoft.AspNetCore.Authentication.OpenIdConnect >= 3.1.8",
+      "Microsoft.AspNetCore.Authentication.JwtBearer >= 3.1.11",
+      "Microsoft.AspNetCore.Authentication.OpenIdConnect >= 3.1.11",
       "Microsoft.AspNetCore.SpaServices >= 3.1.11",
       "Microsoft.AspNetCore.SpaServices.Extensions >= 3.1.11",
       "Microsoft.Extensions.Configuration >= 3.1.11",
-      "Swashbuckle.AspNetCore >= 5.6.2"
+      "Swashbuckle.AspNetCore >= 5.6.2",
+      "Swashbuckle.AspNetCore.Swagger >= 5.6.2",
+      "Swashbuckle.AspNetCore.SwaggerGen >= 5.6.2"
     ]
   },
   "packageFolders": {
@@ -1127,9 +1160,13 @@
       "netcoreapp3.1": {
         "targetAlias": "netcoreapp3.1",
         "dependencies": {
+          "Microsoft.AspNetCore.Authentication.JwtBearer": {
+            "target": "Package",
+            "version": "[3.1.11, )"
+          },
           "Microsoft.AspNetCore.Authentication.OpenIdConnect": {
             "target": "Package",
-            "version": "[3.1.8, )"
+            "version": "[3.1.11, )"
           },
           "Microsoft.AspNetCore.SpaServices": {
             "target": "Package",
@@ -1144,6 +1181,14 @@
             "version": "[3.1.11, )"
           },
           "Swashbuckle.AspNetCore": {
+            "target": "Package",
+            "version": "[5.6.2, )"
+          },
+          "Swashbuckle.AspNetCore.Swagger": {
+            "target": "Package",
+            "version": "[5.6.2, )"
+          },
+          "Swashbuckle.AspNetCore.SwaggerGen": {
             "target": "Package",
             "version": "[5.6.2, )"
           }

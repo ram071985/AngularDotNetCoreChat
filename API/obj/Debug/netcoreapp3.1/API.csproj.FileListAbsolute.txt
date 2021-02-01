@@ -1,11 +1,3 @@
-/Users/reid/Desktop/Projects/angular-chat/API/bin/Debug/netcoreapp3.1/AngularChat/angular.json
-/Users/reid/Desktop/Projects/angular-chat/API/bin/Debug/netcoreapp3.1/AngularChat/e2e/tsconfig.json
-/Users/reid/Desktop/Projects/angular-chat/API/bin/Debug/netcoreapp3.1/AngularChat/package-lock.json
-/Users/reid/Desktop/Projects/angular-chat/API/bin/Debug/netcoreapp3.1/AngularChat/package.json
-/Users/reid/Desktop/Projects/angular-chat/API/bin/Debug/netcoreapp3.1/AngularChat/tsconfig.app.json
-/Users/reid/Desktop/Projects/angular-chat/API/bin/Debug/netcoreapp3.1/AngularChat/tsconfig.json
-/Users/reid/Desktop/Projects/angular-chat/API/bin/Debug/netcoreapp3.1/AngularChat/tsconfig.spec.json
-/Users/reid/Desktop/Projects/angular-chat/API/bin/Debug/netcoreapp3.1/AngularChat/tslint.json
 /Users/reid/Desktop/Projects/angular-chat/API/bin/Debug/netcoreapp3.1/appsettings.Development.json
 /Users/reid/Desktop/Projects/angular-chat/API/bin/Debug/netcoreapp3.1/appsettings.json
 /Users/reid/Desktop/Projects/angular-chat/API/bin/Debug/netcoreapp3.1/API.deps.json
@@ -62,3 +54,11 @@
 /Users/reid/Desktop/Projects/angular-chat/API/bin/Debug/netcoreapp3.1/System.IdentityModel.Tokens.Jwt.dll
 /Users/reid/Desktop/Projects/angular-chat/API/bin/Debug/netcoreapp3.1/Microsoft.OpenApi.dll
 /Users/reid/Desktop/Projects/angular-chat/API/bin/Debug/netcoreapp3.1/Microsoft.AspNetCore.Authentication.JwtBearer.dll
+/Users/reid/Desktop/Projects/angular-chat/API/bin/Debug/netcoreapp3.1/client/angular.json
+/Users/reid/Desktop/Projects/angular-chat/API/bin/Debug/netcoreapp3.1/client/e2e/tsconfig.json
+/Users/reid/Desktop/Projects/angular-chat/API/bin/Debug/netcoreapp3.1/client/package-lock.json
+/Users/reid/Desktop/Projects/angular-chat/API/bin/Debug/netcoreapp3.1/client/package.json
+/Users/reid/Desktop/Projects/angular-chat/API/bin/Debug/netcoreapp3.1/client/tsconfig.app.json
+/Users/reid/Desktop/Projects/angular-chat/API/bin/Debug/netcoreapp3.1/client/tsconfig.json
+/Users/reid/Desktop/Projects/angular-chat/API/bin/Debug/netcoreapp3.1/client/tsconfig.spec.json
+/Users/reid/Desktop/Projects/angular-chat/API/bin/Debug/netcoreapp3.1/client/tslint.json
